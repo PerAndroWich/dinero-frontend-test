@@ -1,23 +1,32 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
-    "baseUrl": "./",
     "outDir": "./dist/out-tsc",
     "sourceMap": true,
     "declaration": false,
-    "downlevelIteration": true,
-    "emitDecoratorMetadata": true,
-    "experimentalDecorators": true,
     "module": "esnext",
     "moduleResolution": "node",
-    "importHelpers": true,
-    "target": "es2015",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "noUnusedLocals": true,
+    "target": "es5",
     "typeRoots": [
       "node_modules/@types"
     ],
     "lib": [
-      "es2018",
+      "es2017",
+      "es2015",
+      "es2016",
       "dom"
-    ]
+    ],
+    "baseUrl": "./src",
+    "paths": {
+      "@dinero/common/*": ["app/common/*"],
+      "@dinero/browser/*": ["app/browser/*"],
+      "@dinero/components/*": ["app/components/*"],
+      "@dinero/pages/*": ["app/pages/*"],
+      "@environment/*": ["environments/*"],
+      "@animations/*": ["content/animations/*"]
+    }
   }
 }

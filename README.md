@@ -7,7 +7,7 @@ Din applikation kommer til at bestå af to sider. Den første side skal bestå a
 
 Listesiden skal du selv “designe”, mens undersiden med detaljerne om planeten har et vedhæftet design, du skal følge. Designet er relativt simpelt, så der er plads til personlige touches.
 
-Opgaven virker måske relativt simpel. Dét, du skal fokusere på, er ikke bare at skrive en kode, som får det til at virke, men derimod at skrive en kode, som du mener er den bedste/flotteste løsning, og som du har lyst til at vise frem.
+Dét, du skal fokusere på, er ikke bare at skrive en kode, som får det til at virke, men derimod at skrive en kode, som du mener er den bedste/flotteste løsning, og som du har lyst til at vise frem.
 
 ### Opgave 1
 - **1:** Lav en side som tilgås via `/planets`

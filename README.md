@@ -5,7 +5,7 @@ Du skal bygge en ny angular-applikation. Applikationen skal gøre brug af det å
 
 Din applikation kommer til at bestå af to sider. Den første side skal bestå af en liste over planeterne, man kan hente fra Swapi. Bare den første side – du behøver ikke lave pagination. På denne side skal man kunne trykke på en planet i listen og komme til en underside, der viser detaljer om planeten, man har trykket på.
 
-Listesiden skal du selv “designe”, mens undersiden med detaljerne om planeten har et vedhæftet design, du skal følge. Designet er relativt simpelt, så der er plads til personlige touches.
+Listesiden skal du selv “designe”, mens undersiden med detaljerne om planeten har et vedhæftet design, du skal følge. Designet er relativt simpelt, så der er plads til personlige touches. Du finder designet under `design` mappen - ligeledes findes de forskellige billeder og ikoner i `assets` mappen.
 
 Dét, du skal fokusere på, er ikke bare at skrive en kode, som får det til at virke, men derimod at skrive en kode, som du mener er den bedste/flotteste løsning, og som du har lyst til at vise frem.
 

@@ -1,0 +1,21 @@
+img {
+  width: 100%;
+  height: auto;
+  margin: -10% auto -10% auto;
+}
+
+.details-box {
+  padding-top: 8%;
+  padding-left: 8%;
+  margin-right: -5%;
+
+  .back-link {
+
+    margin-top: 10px;
+    margin-bottom: 30px;
+
+    a {
+      color: lightskyblue;
+    }
+  }
+}

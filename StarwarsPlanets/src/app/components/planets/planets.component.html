@@ -1,0 +1,25 @@
+<app-sw-header [title]="'Planet oversigt'"></app-sw-header>
+<div class="sw-content row">
+  <div class="col-12 text-center" *ngIf="!planets && !error">
+    <div class="spinner-grow text-info" role="status">
+      <span class="sr-only">Loading...</span>
+    </div>
+  </div>
+  <div class="col-12" *ngIf="error">
+    <div class="font-weight-bold text-danger pl-3 pt-2 d-inline-block">
+      Der er sket en fejl
+    </div>
+    <button
+      type="button"
+      class="btn btn-info float-right mr-3"
+      (click)="ngOnInit()"
+    >
+      Prøv Igen
+    </button>
+  </div>
+  <div class="col-sm-4 col-lg-3 text-center" *ngFor="let planet of planets">
+    <div class="circle text-info" (click)="goToPlanet(planet)">
+      {{ planet.name }}
+    </div>
+  </div>
+</div>
